@@ -1,11 +1,11 @@
-const pOneObject = {
+const playerOneObject = {
     name: 'player 1',
     score: 0,
     tag: document.getElementById('p1Score'),
     buttonEvent: document.getElementById('p1AddPoint').addEventListener('click', () => {addPoint(p1Object, p2Object)})
 }
 
-const pTwoObject = {
+const playerTwoObject = {
     name: 'player 2',
     score: 0,
     tag: document.getElementById('p2Score'),
