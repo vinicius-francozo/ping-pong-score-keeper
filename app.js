@@ -1,15 +1,15 @@
 const playerOneObject = {
     name: 'player 1',
     score: 0,
-    tag: document.getElementById('p1Score'),
-    buttonEvent: document.getElementById('p1AddPoint').addEventListener('click', () => {addPoint(p1Object, p2Object)})
+    tag: document.getElementById('playerOneScore'),
+    buttonEvent: document.getElementById('playerOneAddPoint').addEventListener('click', () => {addPoint(p1Object, p2Object)})
 }
 
 const playerTwoObject = {
     name: 'player 2',
     score: 0,
-    tag: document.getElementById('p2Score'),
-    buttonEvent: document.getElementById('p2AddPoint').addEventListener('click', () => {addPoint(p2Object, p1Object)})
+    tag: document.getElementById('playerTwoScore'),
+    buttonEvent: document.getElementById('playerTwoAddPoint').addEventListener('click', () => {addPoint(p2Object, p1Object)})
 }
 
 let isGameOver = false
